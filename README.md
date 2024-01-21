@@ -1,4 +1,3 @@
 # rds-cluster-test
-
-# npm intall . 
-# npm run test
+  $ npm intall . 
+  $  npm run test
