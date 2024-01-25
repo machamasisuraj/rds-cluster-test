@@ -9,7 +9,7 @@ describe("Database Tests", () => {
       "SELECT * FROM users";
 
     connection = await createPool({
-      host: "testmy.cluster-ro-cxmtybhfhzum.us-east-1.rds.amazonaws.com",
+      host: "<host>",
       user: "admin",
       password: "4BmIO4iKM4bRGLgBi",
       port: 3306,
