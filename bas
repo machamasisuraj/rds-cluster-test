@@ -2,7 +2,7 @@
 #!/bin/bash
 for i in {1..100}
 do
-   mysql -h  testmy.cluster-ro-cxmtybhfhzum.us-east-1.rds.amazonaws.com -u admin --password=4BmIO4iKM4bRGLgBi -e \
+   mysql -h  <host> -u admin --password=4BmIO4iKM4bRGLgBi -e \
    'use geeks;' \
     'select * from users'
   
