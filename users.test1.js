@@ -9,7 +9,7 @@ describe("Database Tests", () => {
       "CREATE TABLE IF NOT EXISTS `users` ( `id` INT(2) NOT NULL AUTO_INCREMENT , `name` VARCHAR(100) NOT NULL , `email` VARCHAR(50) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;";
 
     connection = await createPool({
-      host: "testmy.cluster-ro-cxmtybhfhzum.us-east-1.rds.amazonaws.com",
+      host: "<host>",
       user: "admin",
       password: "4BmIO4iKM4bRGLgBi",
       port: 3306,
